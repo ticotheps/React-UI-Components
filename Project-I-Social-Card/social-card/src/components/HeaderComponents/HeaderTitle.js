@@ -3,10 +3,10 @@ import './Header.css';
 
 function HeaderTitle () {
     return (
-        <div class="header-title">
-            <h2 class="header-title-heading">Lambda School</h2>
-            <p class="twitter-handle">@LambdaSchool</p>
-            <p class="time-stamp"></p>
+        <div className="HeaderTitle">
+            <h2 className="HeaderTitle-heading">Lambda School</h2>
+            <p className="HeaderTitle-twitter">@LambdaSchool</p>
+            <p className="HeaderTitle-timeStamp"></p>
         </div>
     );
 }
