@@ -4,13 +4,23 @@ import CardBanner from './CardBanner.js';
 import CardContent from './CardContent.js';
 import './Card.css';
 
-function CardContainer () {
+// function CardContainer () {
+//     return (
+//         <div className="CardContainer">
+//             <CardBanner />
+//             <CardContent />
+//         </div>
+//     );
+// }
+
+// Arrow Function Syntax 
+const CardContainer = () => {
     return (
         <div className="CardContainer">
             <CardBanner />
             <CardContent />
         </div>
     );
-}
+};
 
 export default CardContainer;

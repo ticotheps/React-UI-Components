@@ -5,7 +5,18 @@ import HeaderTitle from './HeaderTitle.js';
 import HeaderContent from './HeaderContent.js';
 import './Header.css';
 
-function HeaderContainer() {
+// function HeaderContainer() {
+//     return (
+//         <div className="HeaderContainer">
+//             <ImageThumbnail />
+//             <HeaderTitle />
+//             <HeaderContent />
+//         </div>
+//     );
+// }
+
+// Arrow Function Syntax
+const HeaderContainer = () => {
     return (
         <div className="HeaderContainer">
             <ImageThumbnail />
@@ -13,6 +24,6 @@ function HeaderContainer() {
             <HeaderContent />
         </div>
     );
-}
+};
 
 export default HeaderContainer;
