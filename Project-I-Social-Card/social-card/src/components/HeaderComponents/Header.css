@@ -2,6 +2,7 @@
 
 .HeaderContainer {
     display: flex;
+    height: 100px;
 }
 
 .HeaderTitle {
@@ -15,12 +16,17 @@
 
 .HeaderTitle-heading, .HeaderTitle-twitter, .HeaderTitle-timestamp {
     font-size: 14px;
+}
 
+.HeaderTitle-twitter, .HeaderTitle-timestamp {
+    color: gray;   
+    font-size: 13px;
 }
 
 .HeaderContent-text {
-    padding-top: 0px;
+    padding-top: 30px;
     padding-right: 20px;
+    padding-bottom: 0px;
     margin-top: 0px;
 }
 
@@ -29,6 +35,8 @@
     flex-direction: row;
     justify-content: flex-end;
     width: 10%;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .ImageThumbnail-container img {

@@ -16,8 +16,8 @@ const HeaderTitle = () => {
     return (
         <div className="HeaderTitle">
             <h2 className="HeaderTitle-heading">Lambda School</h2>
-            <p className="HeaderTitle-twitter">@LambdaSchool</p>
-            <p className="HeaderTitle-timestamp">26 jan</p>
+            <p className="HeaderTitle-twitter">@LambdaSchool </p>
+            <p className="HeaderTitle-timestamp"> - 26 jan</p>
         </div>
     );
 };

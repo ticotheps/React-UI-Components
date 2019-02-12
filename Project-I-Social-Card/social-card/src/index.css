@@ -10,7 +10,8 @@ body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
-  max-width: 590px;
+  max-width: 575px;
+  max-height: 500px;
   border: 1px solid red;
 }
 
