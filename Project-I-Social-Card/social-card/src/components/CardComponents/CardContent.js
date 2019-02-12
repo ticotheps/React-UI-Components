@@ -17,13 +17,13 @@ import './Card.css';
 // Arrow Function Syntax
 const CardContent = () => {
     return (
-        <div>
+        <div className="CardContent">
             <p className="CardContent-getStarted">Get started with React</p>
             <p className="CardContent-text">
                 React makes it painless to create interactive UIs. Design
                 simple views for each state in your application.
             </p>
-            <p class="CardContent-url">reactjs.org</p>
+            <a class="CardContent-url" href="https://reactjs.org">reactjs.org</a>
         </div>
     );
 };

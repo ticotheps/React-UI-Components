@@ -20,8 +20,10 @@ const HeaderContainer = () => {
     return (
         <div className="HeaderContainer">
             <ImageThumbnail />
-            <HeaderTitle />
-            <HeaderContent />
+            <div className="title-timestamp-container">
+                <HeaderTitle />
+                <HeaderContent />
+            </div>
         </div>
     );
 };

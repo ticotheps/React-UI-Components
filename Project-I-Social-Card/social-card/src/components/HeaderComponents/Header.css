@@ -1,3 +1,46 @@
 /* All styles for your header Components live here */
 
+.HeaderContainer {
+    display: flex;
+}
 
+.HeaderTitle {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.HeaderTitle-heading, .HeaderTitle-twitter, .HeaderTitle-timestamp {
+    font-size: 14px;
+
+}
+
+.HeaderContent-text {
+    padding-top: 0px;
+    padding-right: 20px;
+    margin-top: 0px;
+}
+
+  
+.ImageThumbnail-container {
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 10%;
+}
+
+.ImageThumbnail-container img {
+    width: 100%;
+    height: auto;
+}
+  
+.title-timestamp-container {
+    display: flex;
+    width: 89%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5px;
+}

@@ -1,1 +1,30 @@
 /* All styles for your Card Components live here */
+
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid gray;
+    padding-left: 70px;
+}
+
+.CardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.CardBanner-container {
+    display: flex;
+    align-items: flex-start;
+    width: 490px;
+}
+
+.CardBanner-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.CardContent-getStarted {
+    font-weight: bold;
+}
