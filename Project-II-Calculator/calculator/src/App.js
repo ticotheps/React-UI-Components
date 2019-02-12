@@ -11,7 +11,7 @@ const App = () => {
 	return (
 		<div id="App">
 			<CalculatorDisplay />
-			<div>
+			<div id="NumberButtonsContainer">
 				<ActionButton action="clear" />
 				<div>
 					<NumberButton buttonStyle="standardBtn" text="7" />
@@ -30,7 +30,7 @@ const App = () => {
 				</div>
 				<ActionButton action="0" />
 			</div>
-			<div> 
+			<div id="OperatorButtonsContainer"> 
 				<OperatorButton buttonStyle="standardBtn operatorBtn" fontAwesome="fas fa-divide"/>
 				<OperatorButton buttonStyle="standardBtn operatorBtn" fontAwesome="fas fa-times"/>
 				<OperatorButton buttonStyle="standardBtn operatorBtn" fontAwesome="fas fa-minus"/>
