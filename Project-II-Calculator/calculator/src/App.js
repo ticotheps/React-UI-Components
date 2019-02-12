@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import OperatorButton from './components/ButtonComponents/OperatorButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
 
@@ -11,9 +12,9 @@ const App = () => {
 		<div>
 			<CalculatorDisplay />
 			<div>
-				<ActionButton action="clear"/>
+				<ActionButton action="clear" />
 				<div>
-					<NumberButton text="7" />
+					<NumberButton buttonStyle="largeBtn" text="7" />
 					<NumberButton text="8" />
 					<NumberButton text="9" />
 				</div>
@@ -27,14 +28,14 @@ const App = () => {
 					<NumberButton text="2" />
 					<NumberButton text="3" />
 				</div>
-				<ActionButton action="Zero"/>
+				<ActionButton action="0" />
 			</div>
 			<div> 
-				<ActionButton action="Division"/>
-				<ActionButton action="Multiplication"/>
-				<ActionButton action="Subtraction"/>
-				<ActionButton action="Addition"/>
-				<ActionButton action="Equals"/>
+				<OperatorButton fontAwesome="fas fa-divide"/>
+				<OperatorButton fontAwesome="fas fa-times"/>
+				<OperatorButton fontAwesome="fas fa-minus"/>
+				<OperatorButton fontAwesome="fas fa-plus"/>
+				<OperatorButton fontAwesome="fas fa-equals"/>
 			</div>
 		</div>
   );
