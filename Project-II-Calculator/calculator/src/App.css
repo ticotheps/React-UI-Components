@@ -1,3 +1,18 @@
 #App {
     width: 450px;
 }
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.NumberButtonsContainer {
+    width: 400px;
+}
+
+.OperatorButtonsContainer {
+    width: 50px;
+}

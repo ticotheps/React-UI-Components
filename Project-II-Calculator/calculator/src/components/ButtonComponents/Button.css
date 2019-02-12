@@ -1,5 +1,8 @@
 .largeBtn {
-    color: red;
+    font-size: 45px;
+    background: #ffffff;
+    width: 100%;
+    height: 105px;
 }
 
 .standardBtn {
