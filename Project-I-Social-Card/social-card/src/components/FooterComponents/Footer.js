@@ -4,12 +4,12 @@ import './Footer.css';
 
 function Footer() {
     return(
-        <div className="Footer">
-            <i className="far fa-comment-alt"></i>
-            <i className="fas fa-sync-alt"></i>
-            <i className="far fa-heart"></i>
-            <i className="far fa-envelope"></i>
-        </div>
+        <ul className="Footer">
+            <a href="#"><i className="far fa-comment-alt"></i></a>
+            <a href="#"><i className="far fa-sync-alt"></i></a>
+            <a href="#"><i className="far fa-heart"></i></a>
+            <a href="#"><i className="far fa-envelope"></i></a>
+        </ul>
     );
 }
 

@@ -1,0 +1,11 @@
+.Footer {
+    background-color: white;
+}
+
+.fa-comment-alt, .fa-sync-alt, .fa-heart, .fa-envelope {
+    font-size: 24px;
+}
+
+.Footer a {
+    text-decoration: none;
+}
