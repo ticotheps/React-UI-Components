@@ -1,0 +1,9 @@
+.CalculatorDisplay {
+    width: 100%;
+}
+
+.CalculatorDisplay-content {
+    font-size: 70px;
+    color: white;
+    background-color: black;
+}

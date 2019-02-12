@@ -1,3 +1,15 @@
 .largeBtn {
-    font-size: 24px;
+    color: red;
+}
+
+.standardBtn {
+    font-size: 45px;
+    background: #ffffff;
+    width: 105px;
+    height: 105px;
+}
+
+.operatorBtn {
+    background: red;
+    color: white;
 }

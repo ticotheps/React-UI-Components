@@ -9,33 +9,33 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
 	return (
-		<div>
+		<div id="App">
 			<CalculatorDisplay />
 			<div>
 				<ActionButton action="clear" />
 				<div>
-					<NumberButton buttonStyle="largeBtn" text="7" />
-					<NumberButton text="8" />
-					<NumberButton text="9" />
+					<NumberButton buttonStyle="standardBtn" text="7" />
+					<NumberButton buttonStyle="standardBtn" text="8" />
+					<NumberButton buttonStyle="standardBtn" text="9" />
 				</div>
 				<div> 
-					<NumberButton text="4" />
-					<NumberButton text="5" />
-					<NumberButton text="6" />
+					<NumberButton buttonStyle="standardBtn" text="4" />
+					<NumberButton buttonStyle="standardBtn" text="5" />
+					<NumberButton buttonStyle="standardBtn" text="6" />
 				</div>
 				<div>
-					<NumberButton text="1" />
-					<NumberButton text="2" />
-					<NumberButton text="3" />
+					<NumberButton buttonStyle="standardBtn" text="1" />
+					<NumberButton buttonStyle="standardBtn" text="2" />
+					<NumberButton buttonStyle="standardBtn" text="3" />
 				</div>
 				<ActionButton action="0" />
 			</div>
 			<div> 
-				<OperatorButton fontAwesome="fas fa-divide"/>
-				<OperatorButton fontAwesome="fas fa-times"/>
-				<OperatorButton fontAwesome="fas fa-minus"/>
-				<OperatorButton fontAwesome="fas fa-plus"/>
-				<OperatorButton fontAwesome="fas fa-equals"/>
+				<OperatorButton buttonStyle="standardBtn operatorBtn" fontAwesome="fas fa-divide"/>
+				<OperatorButton buttonStyle="standardBtn operatorBtn" fontAwesome="fas fa-times"/>
+				<OperatorButton buttonStyle="standardBtn operatorBtn" fontAwesome="fas fa-minus"/>
+				<OperatorButton buttonStyle="standardBtn operatorBtn" fontAwesome="fas fa-plus"/>
+				<OperatorButton buttonStyle="standardBtn operatorBtn" fontAwesome="fas fa-equals"/>
 			</div>
 		</div>
   );
