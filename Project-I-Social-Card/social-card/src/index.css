@@ -12,7 +12,6 @@ body {
   font-family: sans-serif;
   max-width: 575px;
   max-height: 500px;
-  border: 1px solid red;
 }
 
 .HeaderContainer, .CardContainer, .Footer {

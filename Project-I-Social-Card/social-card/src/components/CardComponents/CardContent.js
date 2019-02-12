@@ -21,7 +21,7 @@ const CardContent = () => {
             <p className="CardContent-text">
                 <span className="CardContent-getStarted">Get started with React</span> <br/>
                 React makes it painless to create interactive UIs. Design
-                simple views for each state in your application. <br />
+                simple views for<br/> each state in your application. <br />
                 <span className="CardContent-reactjs">reactjs.org</span>
             </p>
         </div>
