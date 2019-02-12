@@ -21,6 +21,7 @@
 .HeaderTitle-twitter, .HeaderTitle-timestamp {
     color: gray;   
     font-size: 13px;
+    margin: 12px 2px;
 }
 
 .HeaderContent-text {
@@ -50,5 +51,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 5px;
+    padding-left: 3px;
 }
