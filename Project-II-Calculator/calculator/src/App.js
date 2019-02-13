@@ -14,17 +14,17 @@ const App = () => {
 			<div class="buttonContainer">
 				<div class="NumberButtonsContainer">
 					<ActionButton buttonStyle="largeBtn" action="clear" />
-					<div>
+					<div class="sevenEightNineContainer">
 						<NumberButton buttonStyle="standardBtn" text="7" />
 						<NumberButton buttonStyle="standardBtn" text="8" />
 						<NumberButton buttonStyle="standardBtn" text="9" />
 					</div>
-					<div> 
+					<div class="fourFiveSixContainer"> 
 						<NumberButton buttonStyle="standardBtn" text="4" />
 						<NumberButton buttonStyle="standardBtn" text="5" />
 						<NumberButton buttonStyle="standardBtn" text="6" />
 					</div>
-					<div>
+					<div class="oneTwoThreeContainer">
 						<NumberButton buttonStyle="standardBtn" text="1" />
 						<NumberButton buttonStyle="standardBtn" text="2" />
 						<NumberButton buttonStyle="standardBtn" text="3" />

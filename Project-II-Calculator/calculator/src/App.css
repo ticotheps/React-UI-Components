@@ -3,16 +3,24 @@
 }
 
 .buttonContainer {
+    width: 450px;
+    height: 450px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
 .NumberButtonsContainer {
-    width: 400px;
+    width: 335px;
 }
 
 .OperatorButtonsContainer {
-    width: 50px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sevenEightNineContainer, .fourFiveSixContainer, .oneTwoThreeContainer  {
+    width: 400px;
 }
