@@ -1,0 +1,26 @@
+#App {
+    width: 450px;
+}
+
+.buttonContainer {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.NumberButtonsContainer {
+    width: 335px;
+}
+
+.OperatorButtonsContainer {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sevenEightNineContainer, .fourFiveSixContainer, .oneTwoThreeContainer  {
+    width: 400px;
+}

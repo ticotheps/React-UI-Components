@@ -1,1 +1,55 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+    display: flex;
+    height: 100px;
+}
+
+.HeaderTitle {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.HeaderTitle-heading, .HeaderTitle-twitter, .HeaderTitle-timestamp {
+    font-size: 14px;
+}
+
+.HeaderTitle-twitter, .HeaderTitle-timestamp {
+    color: gray;   
+    font-size: 13px;
+    margin: 12px 2px;
+}
+
+.HeaderContent-text {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+  
+.ImageThumbnail-container {
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 10%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.ImageThumbnail-container img {
+    width: 100%;
+    height: auto;
+}
+  
+.title-timestamp-container {
+    display: flex;
+    width: 89%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3px;
+}
